@@ -1,0 +1,17 @@
+#container{
+    width: 400px;
+    height: auto;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background-color: white;
+    border: none;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}

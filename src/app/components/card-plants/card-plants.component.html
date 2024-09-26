@@ -1,0 +1,34 @@
+<div id="container">
+    <div class="type-plant">
+        <div class="data">
+            <label>General</label>
+        </div>
+        <div class="cards">
+            <div *ngFor="let plant of generalPlants">
+                <app-card [plant]="plant"></app-card>
+            </div>
+        </div>
+    </div>
+
+    <div class="type-plant">
+        <div class="data">
+            <label>Medicinales</label>
+        </div>
+        <div class="cards">
+            <div *ngFor="let plant of medicinalPlants">
+                <app-card [plant]="plant"></app-card>
+            </div>
+        </div>
+    </div>
+
+    <div class="type-plant">
+        <div class="data">
+            <label>Tóxicas</label>
+        </div>
+        <div class="cards">
+            <div *ngFor="let plant of toxicPlants">
+                <app-card [plant]="plant"></app-card>
+            </div>
+        </div>
+    </div>
+</div>

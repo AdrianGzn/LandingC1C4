@@ -1,0 +1,29 @@
+div{
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+
+    flex: 0 0 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
+
+div:hover{
+    background-color: rgb(243, 243, 243);
+    transition: 0.5s;
+}
+
+#image{
+    flex: 1;
+    width: 160px;
+    height: 100px;
+    max-height: 100px;
+}
+
+label{
+    flex: 1;
+}

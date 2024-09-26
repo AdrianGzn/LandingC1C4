@@ -1,0 +1,33 @@
+#container {
+    width: 940px;
+    height: 330px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    scroll-snap-type: x mandatory;
+    margin: 0 0 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+}
+
+#container div {
+    display: flex;
+    animation: slide 15s infinite;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    17.5% { transform: translateX(0); }
+
+    25% { transform: translateX(-940px); }
+    42.5% { transform: translateX(-940px); }
+
+    50% { transform: translateX(-1880px); }
+    67.5% { transform: translateX(-1880px); }
+
+    75% { transform: translateX(-2820px); }
+    92.5% { transform: translateX(-2820px); }
+
+    100% { transform: translateX(0); }
+    100% { transform: translateX(0); }
+}

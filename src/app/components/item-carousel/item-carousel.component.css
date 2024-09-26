@@ -1,0 +1,11 @@
+#image{
+    width: 939px;
+    height: 330px;
+    margin: 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 219);
+
+    flex: 0 0 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
